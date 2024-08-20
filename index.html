@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <title>Demo Doc</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <ul class="headerMenu" id="target">
+                <li>Home</li>
+                <li>Order</li>
+                <li>Food</li>
+                <li>Restaurant</li>
+                <li>Testimonial</li>
+                <li>Contact Us</li>
+                <li><img src="./assets/img/menu-bar.png" alt=""></li>
+            </ul>
+            <img class="floatingIcon" src="./assets/img/menu-bar.png" alt="" id="myButton">
+        </div>
+    </header>
+
+    <div class="heroSection">
+
+        <div class="flexbox">
+
+            <div class="leftSide">
+                <h1>LOREM IPSUM</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                    id est vitae dolor rhoncus tristique. Maecenas metus quam,
+                    rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+                    dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+                    Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+                    Sed pulvinar, massa ac porta viverra.</p>
+                <button class="commonButton">Click Me</button>
+            </div>
+
+            <div class="rightSide">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="sectiontwo">
+        <div class="container">
+
+            <div class="flexbox">
+
+                <div class="leftSide">
+                    <div class="leftBooki">
+                        <img src="./assets/img/pexels-rachel-claire-6752433.jpg" alt="">
+                        <img src="./assets/img//pexels-eva-bronzini-6141651.jpg" alt="">
+                    </div>
+                    <img class="rightBooki" src="./assets/img//pexels-mister-mister-3434523.jpg" alt="">
+                </div>
+
+                <div class="rightSide">
+
+                    <div class="box">
+                        <span>LOREM IPSUM</span>
+                        <h2>LOREM IPSUM SET ADEMIR</h2>
+                        <button>
+                            Click
+                            <img src="./assets/img/icons8-arrow-30.png" alt="">
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var button = document.getElementById('myButton');
+        var target = document.getElementById('target');
+
+        // Add an event listener for the 'click' event
+        button.onclick = function () {
+            // Add the 'active' class to the button when it's clicked
+            target.classList.toggle('active');
+        };
+    </script>
+
+</body>
+
+</html>
